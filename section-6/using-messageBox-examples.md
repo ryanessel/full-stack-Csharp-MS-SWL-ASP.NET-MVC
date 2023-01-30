@@ -7,8 +7,8 @@ C-sharp if else example
 	--//adds title to message box--
     
 	string messagetitle = "Close Window";
-	MessageBoxButtons farts = MessageBoxButtons.YesNo;
-	DialogResult result = MessageBox.Show(messagetext, messagetitle, farts);
+	MessageBoxButtons buttontext = MessageBoxButtons.YesNo;
+	DialogResult result = MessageBox.Show(messagetext, messagetitle, buttontext);
 	if(result == DialogResult.Yes)
 	{
 		this.Close();
