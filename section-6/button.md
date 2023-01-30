@@ -32,3 +32,21 @@ private void button2_KeyPress(objecsender, KeyPressEventArgs e)
 }
 
 -------------------------------------------------
+
+BONUS OPEN - CLOSE WINDOW LOOP BUTTON 
+
+-------------------------------------------------
+
+private void button3_Click(object senderEventArgs e)
+{
+
+	for (int i = 0; i < 10; i++)
+	{
+		this.WindowState = FormWindowState.Maximized;
+		System.Threading.Thread.Sleep(50);
+		this.WindowState = FormWindowState.Minimized;
+		System.Threading.Thread.Sleep(50);
+	}
+}
+
+-------------------------------------------------

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.TrackBar;
 
 namespace introduction_to_windows_form
 {
@@ -37,7 +38,46 @@ namespace introduction_to_windows_form
 
 		private void button1_Click(object sender, EventArgs e)
 		{
+			//inside here is what the button will do when clicked.
+			//in this case the text of the button whose design
+			//name is "firstbutton" will
+			//change to "changed" onClick
+			firstbutton.Text = "changed";
+		}
 
+		private void button1_Click_1(object sender, EventArgs e)
+		{
+			MessageBox.Show("hello", "message title");
+		}
+
+		private void button2_KeyPress(object sender, KeyPressEventArgs e)
+		{
+			// pressing any key will change this button's text to "Enter"
+			//when it is highlighted or clicked once (making it highlighted)
+			button2.Text = "Enter";
+		}
+
+
+	
+		private void button3_Click(object sender, EventArgs e)
+		{
+
+			for (int i = 0; i < 10; i++)
+			{
+				this.WindowState = FormWindowState.Maximized;
+				System.Threading.Thread.Sleep(50);
+				this.WindowState = FormWindowState.Minimized;
+				System.Threading.Thread.Sleep(50);
+			}
+
+
+		}
+
+		private void button4_Click(object sender, EventArgs e)
+		{
+			label1.Text = "first label";
+			label1.BackColor = Color.Green;
+			label1.ForeColor= Color.White;
 		}
 	}
 }
