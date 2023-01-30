@@ -79,5 +79,31 @@ namespace introduction_to_windows_form
 			label1.BackColor = Color.Green;
 			label1.ForeColor= Color.White;
 		}
+
+		private void textBox1_TextChanged(object sender, EventArgs e)
+		{
+
+		}
+
+		private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+		{
+			if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+			{
+				e.Handled= true;
+			}
+
+			if ((e.KeyChar =='.') && ((sender as  TextBox).Text.IndexOf('.') > -1 ))
+			{
+				e.Handled = true;
+			}
+		}
+
+		private void button5_Click(object sender, EventArgs e)
+		{
+			string labeltext = textBox2.Text;
+			label2.Text= labeltext;
+			label2.BackColor = Color.Green;
+			label2.ForeColor = Color.White;
+		}
 	}
 }
