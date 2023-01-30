@@ -1,0 +1,15 @@
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-4\section-4-variable-conversion\bin\Debug\net6.0\section-4-variable-conversion.exe
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-4\section-4-variable-conversion\bin\Debug\net6.0\section-4-variable-conversion.deps.json
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-4\section-4-variable-conversion\bin\Debug\net6.0\section-4-variable-conversion.runtimeconfig.json
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-4\section-4-variable-conversion\bin\Debug\net6.0\section-4-variable-conversion.dll
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-4\section-4-variable-conversion\bin\Debug\net6.0\section-4-variable-conversion.pdb
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-4\section-4-variable-conversion\obj\Debug\net6.0\section-4-variable-conversion.csproj.AssemblyReference.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-4\section-4-variable-conversion\obj\Debug\net6.0\section-4-variable-conversion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-4\section-4-variable-conversion\obj\Debug\net6.0\section-4-variable-conversion.AssemblyInfoInputs.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-4\section-4-variable-conversion\obj\Debug\net6.0\section-4-variable-conversion.AssemblyInfo.cs
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-4\section-4-variable-conversion\obj\Debug\net6.0\section-4-variable-conversion.csproj.CoreCompileInputs.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-4\section-4-variable-conversion\obj\Debug\net6.0\section-4-variable-conversion.dll
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-4\section-4-variable-conversion\obj\Debug\net6.0\refint\section-4-variable-conversion.dll
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-4\section-4-variable-conversion\obj\Debug\net6.0\section-4-variable-conversion.pdb
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-4\section-4-variable-conversion\obj\Debug\net6.0\section-4-variable-conversion.genruntimeconfig.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-4\section-4-variable-conversion\obj\Debug\net6.0\ref\section-4-variable-conversion.dll

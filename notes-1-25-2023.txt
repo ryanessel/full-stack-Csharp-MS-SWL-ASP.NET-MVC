@@ -1,0 +1,76 @@
+C#
+USED For:
+-console apps
+-windows form apps
+-web apps 
+-mobile apps
+-2d, 3d games
+
+.NET FRAMWROK
+- IS 
+comprise of runtime or sealer, and class library )prorbably methods you can call from the app
+
+why use?
+-reliably
+-perormac
+-producitviy
+-security
+-integration
+-deployment
+
+Will use C# in the dot net framework
+
+
+What C# does is combine the rapid development capabilities of VB with the power of C++. 
+
+
+Why use encapsulation in C#?
+-- lets you hide data and program behavior from users.
+--you can group, properties methods and other memebers so that they are treated as a single object
+-prevent user of a class from manipulating program obs in ways they were not intended by the designer or dev
+-hides how a program operates without affecting its funcitonality an allowing users to service requests for functionality and add or modify internal data or methods to meet changing needs.
+-an example ould be: you have an obj called "Patient" that has patient-realted data; you can use encapsulation to provision patient-specififc data to those who need it without exposiing all pateient data. 
+-also improves you're code's reusability.
+
+What is C# used for?
+-its a gnereal purpose programaing language that you can use ot build a wide range of programs and apps.
+-make web apps, game development.
+-web apps dev: you can build dynamic websites adn apps using .NET or another open-source platform of your choice.
+-MS created C# for MS, so it is a popular language from building windows apps. 
+-C# is also popoular lanauge ot use in game-building, especially with Unity, a game engine that runs on C++ and C#
+
+
+What is a constructor and descructor?
+CONSTRUCTORS
+-method is a block of code that contains a series of statements.
+-Porgrams run by executing mehtods.
+-A constructor is a special method of a class that is automatically called whenever an instance of a given class is created. 
+-constructor cntains the instructions that execute when an object is created (you can change changable attributes you set up in the class)
+-devs use it to assign specififc intitial values to the data mmeber of the same class
+-C# will give you a complie-time error if you try to read from an uninitialized variable
+-you must first initialize your vars by giging them an initial value which the constructor does
+
+DECONSTRUCTORS
+-are methods used to destroy instances of a class when they are no loger needed
+-they are called implicitly by the garbage collector in .NET
+
+
+
+
+MOST POPUULAR DEV ENVIRONMENTS FOR C# and .NET
+mono devleop
+-open source dev en for linux mac and ms,
+
+sharp devlop
+vs
+and vsc
+
+Visual Stuidio
+-used ot develop comp programs as well as websites, web apps and web services 
+-Can produce native and managed code
+-includes code editor suportinng intellisense whichic is the code completion component
+
+
+
+Console Applications-
+furst step in programming

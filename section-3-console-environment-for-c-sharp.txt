@@ -1,0 +1,17 @@
+CONSOLE APPLICATIONS
+-can be thought of as the first step in programming
+-used to intro to progamming
+
+--5 commands--
+-write
+-writeLine
+-ReadKey
+-Read
+-ReadLine
+
+
+Variables etc
+int - numbs
+string- words and shit
+type of variable cannot be used without being defined.
+

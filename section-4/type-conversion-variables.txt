@@ -1,0 +1,101 @@
+Type Conversion in Variables
+
+Casting- convert 1 type to another
+2- types of casting
+-implicit casting
+-explicit casting
+
+
+
+
+-implicit casting
+--for integers you can assign a smaller data type to a larger data type
+
+※※※※※※ example- byte->short->int->long->float->double※※※※※※
+
+-- no auto conversion from numeric type to char or bool; int type into char or string type though or into bool
+
+-char and bool aren't compatible
+
+
+
+EX: -- works becuase byte is smaller than short
+byte cars_byte = 4;
+short cars_short = cars_byte;
+
+
+-explicit casting
+-
+
+
+Assign val of larger data type to smaller data type we 
+
+Cast Operator:
+double x = 24; // x is a double but needs to be an int 
+int y; // so we set up a recepticle y whose type is "int"
+y = (int)x;// then equal y's value and put "int" in () so that the computer knows whihch type to convert x(double) to.
+
+Convert Class:
+double x = 24;
+int y;
+y = Convert.ToInt32(x); // just use a method here (more code but more clear) still need a var with the type "int" to that will hold the value of the converted value:
+
+Example of the methods that let us convert to differet types:
+※Remeber: the variable to which you will assign the convernted value's type must match the type to which the other value will be converted.
+double x = 24; // is a double 
+int y; // we set up an int var y to which we will assign x's val
+y = (int)x// because y's type is "int" the type to which we must convert x must be "int" as well or there will be an error
+ 
+Convert.ToByte()
+Convert.ToSByte()
+Convert.ToInt16()
+Convert.ToInt32()
+Convert.ToInt64()
+Convert.ToUInt16()
+Convert.ToUInt32()
+Convert.ToUInt64()
+Convert.ToChar()
+Convert.ToString()
+Convert.ToSingle()
+Convert.ToDoble()
+Convert.ToDecimal()
+
+
+All types can be covnerted to strings:
+Example:
+
+double x = 24;
+int y = 12;
+float z = 6;
+char t = "+"
+
+string s = x.ToString(); // we first establish s as string whose val is equal to x's value as a string
+
+we then reassign values like below: // we don't have to do this it like this
+// we could add a bunch of other strings that would accept each conversion but, since that would require writing "string" 4 times and thinking of 4 different variable names we jsut did it for speed.
+s = y.ToString();
+s = z.ToString();
+s = t.ToString();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

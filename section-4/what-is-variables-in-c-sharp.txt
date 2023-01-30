@@ -1,0 +1,34 @@
+What Is variables in C#?
+----------------------------------------
+C# variables
+------------------
+int - reg numbers
+str - can be anything but its like "text" kinda
+doubles - numbers with decimals
+
+--TEXT TYPES-- smallest to largest!
+char = 2bytes you can only wite one character -- ex char burger_set = "M"
+string = 2byters per character; you can write 2billion chars if you were so inclined
+
+--INTEGER TYPES-- smallest to largest!
+
+sbyte	System.Sbyte	signed integer	8	-128 to 127	0
+short	System.Int16	signed integer	16	-32768 to 32767	0
+Int	System.Int32	signed integer	32	-231 to 231-1	0
+long	System.Int64	signed integer	64	-263 to 263-1	0L
+byte	System.byte	unsigned integer	8	0 to 255	0
+ushort	System.UInt16	unsigned integer	16	0 to 65535	0
+uint	System.UInt32	unsigned integer	32	0 to 232	0
+ulong	System.UInt64	unsigned integer	64	0 to 263	0
+
+
+--DOUBLES TYPES-- smallest to largest!
+float	System.Single	32	±1.5 × 10-45 to ±3.4 × 1038	0.0F
+double	System.Double	64	±5.0 × 10-324 to ±1.7 × 10308	0.0D
+decimal	System.Decimal	128	±1.0 × 10-28 to ±7.9228 × 1028	0.0M
+
+
+--LOGICAL TYPE--
+boolean(bool) 1 byte    true or false
+
+@ 5:00

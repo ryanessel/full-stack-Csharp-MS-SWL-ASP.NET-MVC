@@ -1,0 +1,4 @@
+Windows Form - a GUi class library bundled in the .NET framwork
+
+to make an easier interface to develop
+also as Winforms
