@@ -1,0 +1,12 @@
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-6\section-6-scrap-work-project\section-6-scrap-work-project\bin\Debug\section-6-scrap-work-project.exe.config
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-6\section-6-scrap-work-project\section-6-scrap-work-project\bin\Debug\section-6-scrap-work-project.exe
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-6\section-6-scrap-work-project\section-6-scrap-work-project\bin\Debug\section-6-scrap-work-project.pdb
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-6\section-6-scrap-work-project\section-6-scrap-work-project\obj\Debug\section-6-scrap-work-project.csproj.AssemblyReference.cache
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-6\section-6-scrap-work-project\section-6-scrap-work-project\obj\Debug\section-6-scrap-work-project.csproj.SuggestedBindingRedirects.cache
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-6\section-6-scrap-work-project\section-6-scrap-work-project\obj\Debug\section_6_scrap_work_project.frmGetData.resources
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-6\section-6-scrap-work-project\section-6-scrap-work-project\obj\Debug\section_6_scrap_work_project.frmShowData.resources
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-6\section-6-scrap-work-project\section-6-scrap-work-project\obj\Debug\section_6_scrap_work_project.Properties.Resources.resources
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-6\section-6-scrap-work-project\section-6-scrap-work-project\obj\Debug\section-6-scrap-work-project.csproj.GenerateResource.cache
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-6\section-6-scrap-work-project\section-6-scrap-work-project\obj\Debug\section-6-scrap-work-project.csproj.CoreCompileInputs.cache
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-6\section-6-scrap-work-project\section-6-scrap-work-project\obj\Debug\section-6-scrap-work-project.exe
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-6\section-6-scrap-work-project\section-6-scrap-work-project\obj\Debug\section-6-scrap-work-project.pdb

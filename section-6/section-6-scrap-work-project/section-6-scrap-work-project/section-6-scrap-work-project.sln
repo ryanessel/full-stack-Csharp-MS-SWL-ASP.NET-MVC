@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "section-6-scrap-work-project", "section-6-scrap-work-project.csproj", "{69C19D69-9746-4878-B7D8-03988DF35DA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69C19D69-9746-4878-B7D8-03988DF35DA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69C19D69-9746-4878-B7D8-03988DF35DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69C19D69-9746-4878-B7D8-03988DF35DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69C19D69-9746-4878-B7D8-03988DF35DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF9274EE-E490-46F9-B1D5-5A147BC44484}
+	EndGlobalSection
+EndGlobal
