@@ -181,5 +181,22 @@ namespace introduction_to_windows_form
         {
 			label5.Text = "combobox selected value changed";
         }
+
+        private void dateTimeBtn_Click(object sender, EventArgs e)
+        {
+			string dateTimePickerMessageBoxTitle1 = "Birthday is ... ";
+			DateTime birthday = dateTimePicker1.Value;
+			label6.Text = birthday.AddYears(2).ToShortDateString();
+			label7.Text = birthday.AddYears(-2).ToShortDateString();
+			MessageBox.Show(birthday.ToString(), dateTimePickerMessageBoxTitle1);
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+			string valChangMsgBoxTitle = "You picked the following date ...";
+			MessageBox.Show(dateTimePicker1.Value.ToShortDateString(), valChangMsgBoxTitle);
+
+
+        }
     }
 }
