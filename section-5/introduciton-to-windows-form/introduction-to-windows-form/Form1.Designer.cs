@@ -41,9 +41,19 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.button6 = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.radioBtn1 = new System.Windows.Forms.RadioButton();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBtn1 = new System.Windows.Forms.Button();
+            this.comboBoxIndexSel = new System.Windows.Forms.Button();
+            this.comboBtnSelectItem = new System.Windows.Forms.Button();
+            this.comboBtnSelectedVal = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -180,23 +190,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 31);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "label3";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(9, 62);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 1;
-            // 
             // button6
             // 
             this.button6.Location = new System.Drawing.Point(9, 106);
@@ -206,11 +199,140 @@
             this.button6.Text = "button6";
             this.button6.UseVisualStyleBackColor = true;
             // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(9, 62);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 20);
+            this.textBox3.TabIndex = 1;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(12, 31);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "label3";
+            // 
+            // radioBtn1
+            // 
+            this.radioBtn1.AutoSize = true;
+            this.radioBtn1.ForeColor = System.Drawing.Color.Black;
+            this.radioBtn1.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.radioBtn1.Location = new System.Drawing.Point(234, 526);
+            this.radioBtn1.Name = "radioBtn1";
+            this.radioBtn1.Size = new System.Drawing.Size(85, 17);
+            this.radioBtn1.TabIndex = 13;
+            this.radioBtn1.TabStop = true;
+            this.radioBtn1.Text = "radioButton1";
+            this.radioBtn1.UseVisualStyleBackColor = true;
+            this.radioBtn1.CheckedChanged += new System.EventHandler(this.radioBtn1_CheckedChanged);
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Checked = true;
+            this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox1.Location = new System.Drawing.Point(647, 639);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(80, 17);
+            this.checkBox1.TabIndex = 14;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.checkBox1.CheckStateChanged += new System.EventHandler(this.checkBox1_CheckStateChanged);
+            // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Location = new System.Drawing.Point(647, 714);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(120, 94);
+            this.checkedListBox1.TabIndex = 15;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(779, 433);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 16;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.comboBox1.SelectedValueChanged += new System.EventHandler(this.comboBox1_SelectedValueChanged);
+            // 
+            // comboBtn1
+            // 
+            this.comboBtn1.Location = new System.Drawing.Point(779, 389);
+            this.comboBtn1.Name = "comboBtn1";
+            this.comboBtn1.Size = new System.Drawing.Size(156, 38);
+            this.comboBtn1.TabIndex = 17;
+            this.comboBtn1.Text = "Combo Button 1";
+            this.comboBtn1.UseVisualStyleBackColor = true;
+            this.comboBtn1.Click += new System.EventHandler(this.comboBtn1_Click);
+            // 
+            // comboBoxIndexSel
+            // 
+            this.comboBoxIndexSel.Location = new System.Drawing.Point(779, 345);
+            this.comboBoxIndexSel.Name = "comboBoxIndexSel";
+            this.comboBoxIndexSel.Size = new System.Drawing.Size(156, 38);
+            this.comboBoxIndexSel.TabIndex = 18;
+            this.comboBoxIndexSel.Text = "ComboBox Index Select";
+            this.comboBoxIndexSel.UseVisualStyleBackColor = true;
+            this.comboBoxIndexSel.Click += new System.EventHandler(this.comboBoxIndexSel_Click);
+            // 
+            // comboBtnSelectItem
+            // 
+            this.comboBtnSelectItem.Location = new System.Drawing.Point(779, 257);
+            this.comboBtnSelectItem.Name = "comboBtnSelectItem";
+            this.comboBtnSelectItem.Size = new System.Drawing.Size(156, 38);
+            this.comboBtnSelectItem.TabIndex = 19;
+            this.comboBtnSelectItem.Text = "ComboBox Item Select";
+            this.comboBtnSelectItem.UseVisualStyleBackColor = true;
+            // 
+            // comboBtnSelectedVal
+            // 
+            this.comboBtnSelectedVal.Location = new System.Drawing.Point(779, 301);
+            this.comboBtnSelectedVal.Name = "comboBtnSelectedVal";
+            this.comboBtnSelectedVal.Size = new System.Drawing.Size(156, 38);
+            this.comboBtnSelectedVal.TabIndex = 20;
+            this.comboBtnSelectedVal.Text = "Combo Box Value Select";
+            this.comboBtnSelectedVal.UseVisualStyleBackColor = true;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(787, 485);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.TabIndex = 21;
+            this.label4.Text = "label4";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(787, 511);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(35, 13);
+            this.label5.TabIndex = 22;
+            this.label5.Text = "label5";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(984, 961);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.comboBtnSelectedVal);
+            this.Controls.Add(this.comboBtnSelectItem);
+            this.Controls.Add(this.comboBoxIndexSel);
+            this.Controls.Add(this.comboBtn1);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.checkedListBox1);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.radioBtn1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.textBox2);
@@ -252,6 +374,16 @@
 		private System.Windows.Forms.TextBox textBox3;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Button button6;
-	}
+        private System.Windows.Forms.RadioButton radioBtn1;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckedListBox checkedListBox1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button comboBtn1;
+        private System.Windows.Forms.Button comboBoxIndexSel;
+        private System.Windows.Forms.Button comboBtnSelectItem;
+        private System.Windows.Forms.Button comboBtnSelectedVal;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+    }
 }
 

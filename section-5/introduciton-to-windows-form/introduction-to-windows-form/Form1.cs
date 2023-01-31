@@ -20,8 +20,30 @@ namespace introduction_to_windows_form
 
 		private void Form1_Load(object sender, EventArgs e)
 		{
+			comboBox1.Items.Add("Sunday");
+			comboBox1.Items.Add("Monday");
+			comboBox1.Items.Add("Tuseday");
+            //comboBox1.SelectedIndex = 2;  // <--- if this is un commented it will immediatly cause the
+			//comobo box to receive a change making it so that our labels change 
+			// by just loading the form
+            // getting data from combo box
+            // 4 different ways
+            // 1. SelectedText
+            // 2. SelectedValue
+            // 3. SelectedItem
+            // 4. SelectedIndex
 
-		string message = " did you see the icon? ";
+
+
+
+
+
+            //makes it so this check box is alwayas checked
+            checkBox1.Checked = true;
+            // this is how to hold line above in a var
+            bool control = checkBox1.Checked = true;
+
+            string message = " did you see the icon? ";
 		string title = "okay";
 
 		DialogResult result = MessageBox.Show(message, title, MessageBoxButtons.YesNo,MessageBoxIcon.Information);
@@ -33,6 +55,9 @@ namespace introduction_to_windows_form
 			{
 				// do nothing
 			}
+
+
+
 
 		}
 
@@ -105,5 +130,56 @@ namespace introduction_to_windows_form
 			label2.BackColor = Color.Green;
 			label2.ForeColor = Color.White;
 		}
-	}
+
+        private void radioBtn1_CheckedChanged(object sender, EventArgs e)
+        {
+			//radioBtn1.Checked = false;
+			//bool control = radioBtn1.Checked;
+			MessageBox.Show("Checked changed", "Radio Button 1");
+        }
+
+		//Checked Changed
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+			MessageBox.Show("Check changed", "Checkbox Message Box");
+
+        }
+
+		//CheckState Changed event
+        private void checkBox1_CheckStateChanged(object sender, EventArgs e)
+        {
+            MessageBox.Show("Checked state changed", "Check state changed");
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+			label4.Text = "combobox selected index";
+
+        }
+
+        private void comboBtn1_Click(object sender, EventArgs e)
+        {
+            string comboMessageBoxTitle = "Current item selected is...";
+            // using SelectedItem method, it get the current item selected 
+            // in the target comboBox. Ex: yourComboBoxName.SelectedItem
+            // the ToString() converts it to a string so it can be displayed 
+            // via message boxes
+            string selecteditem = comboBox1.SelectedItem.ToString();
+            MessageBox.Show(selecteditem, comboMessageBoxTitle);
+
+        }
+
+        private void comboBoxIndexSel_Click(object sender, EventArgs e)
+        {
+            string comboMessageBoxTitle = "Index of selected item is...";
+            int valueorder = comboBox1.SelectedIndex;
+            MessageBox.Show(valueorder.ToString(), comboMessageBoxTitle);
+        }
+
+        private void comboBox1_SelectedValueChanged(object sender, EventArgs e)
+        {
+			label5.Text = "combobox selected value changed";
+        }
+    }
 }
