@@ -49,7 +49,7 @@ and make the label where you want the input text on the current form to show, pu
 ![solExplo](./data-transfer-pictures/solution-explorer-datatransfer.png "solution exploror 1")
 
 2nd - scroll down and change from "private" to "public"
-- makes this  "label" (in this case) accessible anywhere in the project where it would have only been accessible to the 
+- makes this  "label" (in this case) accessible anywhere in the project where it would have only been accessible to the form on which it was created
 
 ![codeView](./data-transfer-pictures/before-changing-to-pub.png "private to public")
 
