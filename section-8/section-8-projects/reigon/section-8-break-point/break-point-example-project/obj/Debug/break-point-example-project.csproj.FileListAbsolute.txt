@@ -1,0 +1,11 @@
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-8\section-8-projects\reigon\section-8-break-point\break-point-example-project\bin\Debug\break-point-example-project.exe.config
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-8\section-8-projects\reigon\section-8-break-point\break-point-example-project\bin\Debug\break-point-example-project.exe
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-8\section-8-projects\reigon\section-8-break-point\break-point-example-project\bin\Debug\break-point-example-project.pdb
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-8\section-8-projects\reigon\section-8-break-point\break-point-example-project\obj\Debug\break-point-example-project.csproj.AssemblyReference.cache
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-8\section-8-projects\reigon\section-8-break-point\break-point-example-project\obj\Debug\break-point-example-project.csproj.SuggestedBindingRedirects.cache
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-8\section-8-projects\reigon\section-8-break-point\break-point-example-project\obj\Debug\break_point_example_project.Form1.resources
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-8\section-8-projects\reigon\section-8-break-point\break-point-example-project\obj\Debug\break_point_example_project.Properties.Resources.resources
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-8\section-8-projects\reigon\section-8-break-point\break-point-example-project\obj\Debug\break-point-example-project.csproj.GenerateResource.cache
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-8\section-8-projects\reigon\section-8-break-point\break-point-example-project\obj\Debug\break-point-example-project.csproj.CoreCompileInputs.cache
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-8\section-8-projects\reigon\section-8-break-point\break-point-example-project\obj\Debug\break-point-example-project.exe
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-8\section-8-projects\reigon\section-8-break-point\break-point-example-project\obj\Debug\break-point-example-project.pdb
