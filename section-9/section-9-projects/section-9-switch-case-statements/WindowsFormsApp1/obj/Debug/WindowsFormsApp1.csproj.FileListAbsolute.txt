@@ -1,0 +1,11 @@
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-9\section-9-projects\section-9-switch-case-statements\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-9\section-9-projects\section-9-switch-case-statements\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-9\section-9-projects\section-9-switch-case-statements\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-9\section-9-projects\section-9-switch-case-statements\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-9\section-9-projects\section-9-switch-case-statements\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-9\section-9-projects\section-9-switch-case-statements\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-9\section-9-projects\section-9-switch-case-statements\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-9\section-9-projects\section-9-switch-case-statements\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-9\section-9-projects\section-9-switch-case-statements\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-9\section-9-projects\section-9-switch-case-statements\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-9\section-9-projects\section-9-switch-case-statements\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
