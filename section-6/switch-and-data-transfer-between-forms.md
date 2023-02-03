@@ -22,6 +22,7 @@ switch and data transfer between forms
 
 2. Button Click event that lets opens another form on click
 - only can use the open form and the first form won't be usable
+  until closeing the 2nd form(the form you opened)
 -difference? ".ShowDialog"
 --------------------------------------------------------------------
         private void button1_Click(object sender, EventArgs e)

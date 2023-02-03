@@ -1,0 +1,11 @@
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-9\section-9-projects\section-9-if-else-statements\if-else-statements\bin\Debug\if-else-statements.exe.config
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-9\section-9-projects\section-9-if-else-statements\if-else-statements\bin\Debug\if-else-statements.exe
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-9\section-9-projects\section-9-if-else-statements\if-else-statements\bin\Debug\if-else-statements.pdb
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-9\section-9-projects\section-9-if-else-statements\if-else-statements\obj\Debug\if-else-statements.csproj.AssemblyReference.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-9\section-9-projects\section-9-if-else-statements\if-else-statements\obj\Debug\if-else-statements.csproj.SuggestedBindingRedirects.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-9\section-9-projects\section-9-if-else-statements\if-else-statements\obj\Debug\if_else_statements.Form1.resources
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-9\section-9-projects\section-9-if-else-statements\if-else-statements\obj\Debug\if_else_statements.Properties.Resources.resources
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-9\section-9-projects\section-9-if-else-statements\if-else-statements\obj\Debug\if-else-statements.csproj.GenerateResource.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-9\section-9-projects\section-9-if-else-statements\if-else-statements\obj\Debug\if-else-statements.csproj.CoreCompileInputs.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-9\section-9-projects\section-9-if-else-statements\if-else-statements\obj\Debug\if-else-statements.exe
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-9\section-9-projects\section-9-if-else-statements\if-else-statements\obj\Debug\if-else-statements.pdb
