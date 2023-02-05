@@ -19,7 +19,7 @@ switch(x)
 
     case 6:
         messageText = "x eqauls 6";
-        break;
+        break;ls
 
         
     default:
