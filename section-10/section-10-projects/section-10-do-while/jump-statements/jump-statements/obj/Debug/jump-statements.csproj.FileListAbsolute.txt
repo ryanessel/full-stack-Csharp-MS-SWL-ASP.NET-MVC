@@ -1,0 +1,11 @@
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-10\section-10-projects\section-10-do-while\jump-statements\jump-statements\bin\Debug\jump-statements.exe.config
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-10\section-10-projects\section-10-do-while\jump-statements\jump-statements\bin\Debug\jump-statements.exe
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-10\section-10-projects\section-10-do-while\jump-statements\jump-statements\bin\Debug\jump-statements.pdb
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-10\section-10-projects\section-10-do-while\jump-statements\jump-statements\obj\Debug\jump-statements.csproj.AssemblyReference.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-10\section-10-projects\section-10-do-while\jump-statements\jump-statements\obj\Debug\jump-statements.csproj.SuggestedBindingRedirects.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-10\section-10-projects\section-10-do-while\jump-statements\jump-statements\obj\Debug\jump_statements.Form1.resources
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-10\section-10-projects\section-10-do-while\jump-statements\jump-statements\obj\Debug\jump_statements.Properties.Resources.resources
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-10\section-10-projects\section-10-do-while\jump-statements\jump-statements\obj\Debug\jump-statements.csproj.GenerateResource.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-10\section-10-projects\section-10-do-while\jump-statements\jump-statements\obj\Debug\jump-statements.csproj.CoreCompileInputs.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-10\section-10-projects\section-10-do-while\jump-statements\jump-statements\obj\Debug\jump-statements.exe
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-10\section-10-projects\section-10-do-while\jump-statements\jump-statements\obj\Debug\jump-statements.pdb
