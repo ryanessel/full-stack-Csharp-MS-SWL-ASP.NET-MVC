@@ -46,7 +46,7 @@ and make the label where you want the input text on the current form to show, pu
 
 1st - go to solution explorer and click
 
-
+## public-private-difference
 ![solExplo](./data-transfer-pictures/solution-explorer-datatransfer.png "solution exploror 1")
 
 2nd - scroll down and change from "private" to "public"
