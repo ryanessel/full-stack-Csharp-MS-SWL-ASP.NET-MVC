@@ -1,0 +1,11 @@
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-12\section-12-projects\arrays-in-c-sharp\bin\Debug\arrays-in-c-sharp.exe.config
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-12\section-12-projects\arrays-in-c-sharp\bin\Debug\arrays-in-c-sharp.exe
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-12\section-12-projects\arrays-in-c-sharp\bin\Debug\arrays-in-c-sharp.pdb
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-12\section-12-projects\arrays-in-c-sharp\obj\Debug\arrays-in-c-sharp.csproj.AssemblyReference.cache
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-12\section-12-projects\arrays-in-c-sharp\obj\Debug\arrays-in-c-sharp.csproj.SuggestedBindingRedirects.cache
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-12\section-12-projects\arrays-in-c-sharp\obj\Debug\arrays_in_c_sharp.Form1.resources
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-12\section-12-projects\arrays-in-c-sharp\obj\Debug\arrays_in_c_sharp.Properties.Resources.resources
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-12\section-12-projects\arrays-in-c-sharp\obj\Debug\arrays-in-c-sharp.csproj.GenerateResource.cache
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-12\section-12-projects\arrays-in-c-sharp\obj\Debug\arrays-in-c-sharp.csproj.CoreCompileInputs.cache
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-12\section-12-projects\arrays-in-c-sharp\obj\Debug\arrays-in-c-sharp.exe
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-12\section-12-projects\arrays-in-c-sharp\obj\Debug\arrays-in-c-sharp.pdb
