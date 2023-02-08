@@ -45,9 +45,157 @@ namespace first_project_counting
 			divisibleTerm = Convert.ToInt32(cmbDivisibleTerm.SelectedItem);
 
 		}
-		string divisibleNumber = "";
-		private void btnCount_Click(object sender, EventArgs e)
+
+		int controlNumber = 1; // he said 0 but wrote 1
+
+        private void txtStartFrom_KeyPress(object sender, KeyPressEventArgs e)
+        {
+			if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+			{
+				e.Handled= true;
+			}
+        }
+
+        private void txtTo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtStartFrom_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbDivisibleTerm_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void rbBlack_CheckedChanged(object sender, EventArgs e)
+        {
+			if(rbBlack.Checked)
+			{
+				rbRed.Checked = false;
+                rbBlue.Checked = false;
+                rbGreen.Checked = false;
+				txtDivisibleNumbers.ForeColor = Color.Black;
+
+            }
+        }
+
+        private void rbRed_CheckedChanged(object sender, EventArgs e)
+        {
+			if(rbRed.Checked)
+			{
+				rbBlack.Checked = false;
+                rbBlue.Checked = false;
+                rbGreen.Checked = false;
+                txtDivisibleNumbers.ForeColor = Color.Red;
+            }
+        }
+
+        private void rbBlue_CheckedChanged(object sender, EventArgs e)
+        {
+			if(rbBlue.Checked)
+			{
+				rbBlack.Checked = false;
+                rbRed.Checked = false;
+                rbGreen.Checked = false;
+                txtDivisibleNumbers.ForeColor = Color.Blue;
+            }
+        }
+
+        private void rbGreen_CheckedChanged(object sender, EventArgs e)
+        {
+			if(rbGreen.Checked)
+			{
+				rbBlack.Checked = false;
+				rbRed.Checked = false;
+				rbBlue.Checked = false;
+                txtDivisibleNumbers.ForeColor = Color.Green;
+            }
+        }
+
+        private void chBold_CheckedChanged(object sender, EventArgs e)
+        {
+			if (chBold.Checked)
+			{
+				txtDivisibleNumbers.Font = new Font(
+					txtDivisibleNumbers.Font.FontFamily,
+					txtDivisibleNumbers.Font.Size,
+					FontStyle.Bold
+					);
+			}
+			else
+			{
+                txtDivisibleNumbers.Font = new Font(
+                    txtDivisibleNumbers.Font.FontFamily,
+                    txtDivisibleNumbers.Font.Size,
+                    FontStyle.Regular
+                    );
+            }
+        }
+
+        private void chItalic_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chItalic.Checked)
+            {
+                txtDivisibleNumbers.Font = new Font(
+                    txtDivisibleNumbers.Font.FontFamily,
+                    txtDivisibleNumbers.Font.Size,
+                    FontStyle.Italic
+                    );
+            }
+            else
+            {
+                txtDivisibleNumbers.Font = new Font(
+                    txtDivisibleNumbers.Font.FontFamily,
+                    txtDivisibleNumbers.Font.Size,
+                    FontStyle.Regular
+                    );
+            }
+        }
+
+        private void btnCount_Click(object sender, EventArgs e)
 		{
+            string divisibleNumber = "";
+			if (txtStartFrom.Text.Trim() == "" || txtTo.Text.Trim() == "")
+			{
+			
+
+
+                MessageBox.Show(
+					"Fill out 'start from' and 'to' boxes!", 
+					"Notice", 
+					MessageBoxButtons.OK, 
+					MessageBoxIcon.Warning);
+				return;
+			}
+			else if (cmbDivisibleTerm.SelectedIndex == -1) 
+			{
+				MessageBox.Show(
+					"Please select divisible number",  
+					"Divisible Number not selected",
+					MessageBoxButtons.OK,
+					MessageBoxIcon.Warning);
+				return;
+			}
+
+
+
 			firstNumber = Convert.ToInt32(txtStartFrom.Text);
 			lastNumber = Convert.ToInt32(txtTo.Text);
 			MessageBox.Show("Divisible "+ divisibleTerm + " From " + firstNumber + " To " + lastNumber);
@@ -56,8 +204,11 @@ namespace first_project_counting
 				if (i % divisibleTerm == 0)
 				{
 					divisibleNumber += i.ToString() + " ";
+					if (controlNumber % 10 == 0) divisibleNumber += Environment.NewLine; 
+					controlNumber++;
 				}
 				txtDivisibleNumbers.Text = divisibleNumber;
+
 			}
 		}
 	}
