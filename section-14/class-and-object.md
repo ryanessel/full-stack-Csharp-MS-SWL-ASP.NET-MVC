@@ -146,3 +146,32 @@ Employee personaldetail = new Employee();
 double salary = personaldetail.FindSalary(32);
 
 --------------------------------------------------------------------------
+
+
+-setting up new class
+
+Right click the class-and-objects under the project file in the "solution explored" add -> class.
+name the class what you want it to be
+
+it will set it up as an "internal class"
+you have to change it to "public" or it won't be accesible to the rest
+of the project
+
+
+
+
+--------------------------------------------------------------------------
+
+
+namespace classes_and_objects
+{   //IF NOT PUBLIC form2 will break when using
+    //personelDetail!!!
+    public class Employee
+    {
+        public int EmployeeID { get; set; }
+        public string Name { get; set; }
+        public int Age { get; set; }
+
+    }
+}
+--------------------------------------------------------------------------

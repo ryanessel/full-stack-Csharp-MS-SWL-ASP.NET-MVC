@@ -33,6 +33,8 @@ namespace classes_and_objects
             personelDetail.EmployeeID = Convert.ToInt32(txtId.Text);
             personelDetail.Name = txtName.Text;
             personelDetail.Age = Convert.ToInt32(txtAge.Text);
+            // making new instance of Form2 class here
+            //we name it "frm"
             Form2 frm = new Form2();
             frm.personelDetail= personelDetail;
             frm.ShowDialog();

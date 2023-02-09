@@ -5,7 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace classes_and_objects
-{
+{   //IF NOT PUBLIC form2 will break when using
+    //personelDetail!!!
     public class Employee
     {
         public int EmployeeID { get; set; }
