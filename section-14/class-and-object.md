@@ -122,11 +122,11 @@ You can then use GET and SET as follows (though you don't explicetly invoke them
 // making new intance of class
 Employee personaldetail = new Employee();
 
-//assiging values with "set"
+//assiging values with "set" - you don't have to call "set"
 personaldetail.Name ="charles";
 personaldetail.Age = 12;
 
-//accessing values with "get"
+//accessing values with "get" - you don't have to call "get"
 string employeeName = personaldetail.Name;
 int employeeAge = personaldetail.Age;
 
