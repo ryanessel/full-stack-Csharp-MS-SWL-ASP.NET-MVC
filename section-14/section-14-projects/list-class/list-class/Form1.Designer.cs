@@ -35,6 +35,9 @@
             this.btnAddEmployeetToList = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.cmbDays = new System.Windows.Forms.ComboBox();
+            this.dayslist = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dayslist)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -109,11 +112,30 @@
             this.button4.Text = "button2";
             this.button4.UseVisualStyleBackColor = true;
             // 
+            // cmbDays
+            // 
+            this.cmbDays.FormattingEnabled = true;
+            this.cmbDays.Location = new System.Drawing.Point(551, 36);
+            this.cmbDays.Name = "cmbDays";
+            this.cmbDays.Size = new System.Drawing.Size(121, 21);
+            this.cmbDays.TabIndex = 5;
+            this.cmbDays.SelectedIndexChanged += new System.EventHandler(this.cmbDays_SelectedIndexChanged);
+            // 
+            // dayslist
+            // 
+            this.dayslist.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dayslist.Location = new System.Drawing.Point(493, 243);
+            this.dayslist.Name = "dayslist";
+            this.dayslist.Size = new System.Drawing.Size(240, 150);
+            this.dayslist.TabIndex = 6;
+            // 
             // btnFillList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.dayslist);
+            this.Controls.Add(this.cmbDays);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.btnAddEmployeetToList);
@@ -124,6 +146,7 @@
             this.Name = "btnFillList";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dayslist)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -138,6 +161,8 @@
 		private System.Windows.Forms.Button btnAddEmployeetToList;
 		private System.Windows.Forms.Button button3;
 		private System.Windows.Forms.Button button4;
+		private System.Windows.Forms.ComboBox cmbDays;
+		private System.Windows.Forms.DataGridView dayslist;
 	}
 }
 

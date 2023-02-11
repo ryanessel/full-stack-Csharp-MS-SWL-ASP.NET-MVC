@@ -72,3 +72,12 @@ private void Form1_Load(object sender, EventArgs e)
 
 
 
+
+Filling out DataGrid with DataSource List data!
+
+------------------------------------
+// dayslist is the DataGridView box, DataSource is the method(function) and the comboList is the listwhich has the data
+dayslist.DataSource = comboList;
+
+------------------------------------
+
