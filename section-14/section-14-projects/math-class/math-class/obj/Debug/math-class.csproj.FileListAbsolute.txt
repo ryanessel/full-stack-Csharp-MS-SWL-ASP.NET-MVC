@@ -1,0 +1,11 @@
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-14\section-14-projects\math-class\math-class\bin\Debug\math-class.exe.config
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-14\section-14-projects\math-class\math-class\bin\Debug\math-class.exe
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-14\section-14-projects\math-class\math-class\bin\Debug\math-class.pdb
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-14\section-14-projects\math-class\math-class\obj\Debug\math-class.csproj.AssemblyReference.cache
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-14\section-14-projects\math-class\math-class\obj\Debug\math-class.csproj.SuggestedBindingRedirects.cache
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-14\section-14-projects\math-class\math-class\obj\Debug\math_class.Form1.resources
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-14\section-14-projects\math-class\math-class\obj\Debug\math_class.Properties.Resources.resources
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-14\section-14-projects\math-class\math-class\obj\Debug\math-class.csproj.GenerateResource.cache
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-14\section-14-projects\math-class\math-class\obj\Debug\math-class.csproj.CoreCompileInputs.cache
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-14\section-14-projects\math-class\math-class\obj\Debug\math-class.exe
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\section-14\section-14-projects\math-class\math-class\obj\Debug\math-class.pdb

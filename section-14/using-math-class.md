@@ -20,3 +20,7 @@ Log10(Double)- Returns the base 10 logarithm of a specified
                number.
 
                making a calculator
+
+
+
+               
