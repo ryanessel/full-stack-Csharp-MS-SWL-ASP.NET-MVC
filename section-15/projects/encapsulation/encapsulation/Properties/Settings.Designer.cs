@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace math_class.Properties
+namespace encapsulation.Properties
 {
 
 

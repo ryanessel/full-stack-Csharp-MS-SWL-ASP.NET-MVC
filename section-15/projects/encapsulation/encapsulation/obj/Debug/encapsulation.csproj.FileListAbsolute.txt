@@ -1,0 +1,12 @@
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\encapsulation\bin\Debug\encapsulation.exe.config
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\encapsulation\bin\Debug\encapsulation.exe
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\encapsulation\bin\Debug\encapsulation.pdb
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\encapsulation\obj\Debug\encapsulation.csproj.AssemblyReference.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\encapsulation\obj\Debug\encapsulation.csproj.SuggestedBindingRedirects.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\encapsulation\obj\Debug\encapsulation.Form1.resources
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\encapsulation\obj\Debug\encapsulation.FrmEmployeeDetails.resources
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\encapsulation\obj\Debug\encapsulation.Properties.Resources.resources
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\encapsulation\obj\Debug\encapsulation.csproj.GenerateResource.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\encapsulation\obj\Debug\encapsulation.csproj.CoreCompileInputs.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\encapsulation\obj\Debug\encapsulation.exe
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\encapsulation\obj\Debug\encapsulation.pdb
