@@ -1,0 +1,11 @@
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\static-using\static-using\bin\Debug\static-using.exe.config
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\static-using\static-using\bin\Debug\static-using.exe
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\static-using\static-using\bin\Debug\static-using.pdb
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\static-using\static-using\obj\Debug\static-using.csproj.AssemblyReference.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\static-using\static-using\obj\Debug\static-using.csproj.SuggestedBindingRedirects.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\static-using\static-using\obj\Debug\static_using.Form1.resources
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\static-using\static-using\obj\Debug\static_using.Properties.Resources.resources
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\static-using\static-using\obj\Debug\static-using.csproj.GenerateResource.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\static-using\static-using\obj\Debug\static-using.csproj.CoreCompileInputs.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\static-using\static-using\obj\Debug\static-using.exe
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\static-using\static-using\obj\Debug\static-using.pdb

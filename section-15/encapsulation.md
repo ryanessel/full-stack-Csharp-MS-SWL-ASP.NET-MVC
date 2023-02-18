@@ -49,3 +49,4 @@ In multi layer architechture
 Methods for Encap
 - get and set
 
+Look at the C# .NET framework project for examples
