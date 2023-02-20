@@ -50,3 +50,30 @@ Methods for Encap
 - get and set
 
 Look at the C# .NET framework project for examples
+
+Human Class
+-----------------------------------------------------
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Ineritance
+{
+	public class Human
+	{
+		public string FirstName { get; set; }
+		public string LastName { get; set; }
+		public double ID { get; set; }
+
+		public char Gender { get; set; }
+		public int Age { get; set; }
+	}
+}
+
+
+---------------------------------------------------------
+

@@ -135,3 +135,69 @@ ADVANATAGES AND DISADVANTAGES OF INHERITANCE
 
 
 
+
+
+
+Coding examples --- see accompanying C# .NET framework project to see how it is used 
+
+Employee Class
+-----------------------------------------------------
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Ineritance
+{
+	public class Employee:Human // extending Employee class from Human Class
+	{
+		protected string Position { get; set; }
+		public double Salary { get; set; }
+		public void Setvalues()
+		{
+			FirstName = "Ryan";
+			ID= 1;
+			Gender = 'M';
+			Age = 32;
+		}
+	}
+}
+
+---------------------------------------------------------
+
+
+
+
+Teacher Class
+-----------------------------------------------------
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Ineritance
+{
+	public class Teacher:Employee // extending Teacher class which was extended from employee class which was extended from Human class 
+	{
+		public string Branch { get; set; }
+		public void FindSalary()
+		{
+			Salary = 3000;
+		}
+		public void SetValues2()
+		{
+			Position = "Teacher";
+			Branch = "Math";
+		}
+	}
+}
+
+
+---------------------------------------------------------
+
+
