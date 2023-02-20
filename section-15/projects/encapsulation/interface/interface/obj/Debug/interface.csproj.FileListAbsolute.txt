@@ -1,0 +1,11 @@
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\interface\interface\bin\Debug\@interface.exe.config
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\interface\interface\bin\Debug\@interface.exe
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\interface\interface\bin\Debug\@interface.pdb
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\interface\interface\obj\Debug\interface.csproj.AssemblyReference.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\interface\interface\obj\Debug\interface.csproj.SuggestedBindingRedirects.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\interface\interface\obj\Debug\interface.Form1.resources
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\interface\interface\obj\Debug\interface.Properties.Resources.resources
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\interface\interface\obj\Debug\interface.csproj.GenerateResource.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\interface\interface\obj\Debug\interface.csproj.CoreCompileInputs.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\interface\interface\obj\Debug\@interface.exe
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\encapsulation\interface\interface\obj\Debug\@interface.pdb
