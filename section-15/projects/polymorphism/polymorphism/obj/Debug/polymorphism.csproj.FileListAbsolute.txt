@@ -1,0 +1,11 @@
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\polymorphism\polymorphism\bin\Debug\polymorphism.exe.config
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\polymorphism\polymorphism\bin\Debug\polymorphism.exe
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\polymorphism\polymorphism\bin\Debug\polymorphism.pdb
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\polymorphism\polymorphism\obj\Debug\polymorphism.csproj.AssemblyReference.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\polymorphism\polymorphism\obj\Debug\polymorphism.csproj.SuggestedBindingRedirects.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\polymorphism\polymorphism\obj\Debug\polymorphism.Form1.resources
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\polymorphism\polymorphism\obj\Debug\polymorphism.Properties.Resources.resources
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\polymorphism\polymorphism\obj\Debug\polymorphism.csproj.GenerateResource.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\polymorphism\polymorphism\obj\Debug\polymorphism.csproj.CoreCompileInputs.cache
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\polymorphism\polymorphism\obj\Debug\polymorphism.exe
+C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\c-sharp\section-15\projects\polymorphism\polymorphism\obj\Debug\polymorphism.pdb

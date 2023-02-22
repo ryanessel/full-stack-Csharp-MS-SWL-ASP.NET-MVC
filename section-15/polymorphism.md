@@ -73,6 +73,73 @@ employee1.SetVals(12, "Charles", 3500);
    which is known as dynamic binding or late binding
 
 
+Virtual Method 
+- is a method that can be redefined in derived classes
+- has an implementation in a base class as well as the derived class.
+- used when a methods basic functionality is the same 
+- virutual method is created in the base class that can be overridden 
+  in the derived class
+- all you need to do to create a virtual method in the bass class is just
+  using the keyword virtual and then that method is overridden in the derived class using the keyword ovverride.
+  -- guess normally you can't edit a class's OG methods in a derived class and in order to do so you must name it "public virtual" when you define the base class
+  -- and then in the derived class you call "override" and can edit it's funciton
+
+- when a methd is declared as a virtual method in a base class, then that method can be defined in a base classe and it is optional for the derived class to 
+  override that method by using the "override" 
+
+
+- overriding method also provides more than one form for a method.
+- Hence, it is also an example of polymorphism.
+- Only have to use "override" if you are changing the funciton/method definition
+Base class
+-------------------------------------------------------------------------
+class Employee{
+  public int EmployeeID{get; set;}
+  public string EmployeeName{get; set;}
+  public double EmployeeSalary {get; set;}
+  
+  public virtual string SetVals(int ID, string Name, double Salary){
+    string messageText = "set three params";
+    return messageText;
+  }
+}
+-----------------------------------------------------------------------------
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+Derived class
+---------------------------------------------------------------------------
+class Teacher:Employee{
+  public string EmployeePosition {get; set;}
+  override public string SetValues(intID, string Name, double Salary){
+    string messageText = "set four pararms"; // changing the messageText string so we need override above
+    return messageText;
+  }
+}
+----------------------------------------------------------------------------
+
+
+Overriding
+
+------------------------------------------------------------------------------
+
+Employee employee1 = new Employee();
+Teacher teacher1 = new Teacher();
+string showMsgText;
+
+showMsgText = employee.SetVals(12, "Ryan", 3500);
+MessageBox.Show(showMsgText);
+
+showMsgTxt = teacher1.SetVals(12, "Ryan", 3500);
+MessageBox.Show(showMsgTxt);
+--------------------------------------------------------------------------------
 
 
 
+
+
+
+
+
+
+---------------------------------------------------------------------------------
