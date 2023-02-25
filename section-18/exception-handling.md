@@ -65,8 +65,94 @@ System.InvalidCastException - handles errors generated during typecasting.
 System.OutOfMemoryException - handles errors generated from insufficient free memory
 System.StackOver - handles errors generated from stack overflow.
 
-
-
-
 ------------------------------------------------------------------
 
+
+
+
+Code Examples
+try- exeption handling
+its by using these blocks the core program statements are separated from the error
+handling statements.
+
+- can write more than one catch if you feel liek it
+----------------------------------------------------------
+try
+{
+  //code block
+}
+
+catch(Exception ex)
+{
+  //hanlde exception
+}
+
+
+
+----------------------------------------------------------
+
+Example of exception handling with 3 catch blocks
+- have to use "ex" catch block as the last block otherwise it will always take the gernal exception
+-------------------------------------------------------------
+int x = 0, y =5, z;
+float result;
+try{
+  result=y/x; // dividing by zero gives you the first error belwo
+}
+catch(DividedByzeroException ex){
+  MessageBox.Show(ex.ToString());
+}
+catch(NullReferenceException ex){
+  MessageBox.Show(ex.ToString());
+}
+catch(Exception ex){
+  MessageBox.Show(ex.ToString());
+}
+
+
+
+-------------------------------------------------------------
+
+
+
+Finaly Blcok handling---
+----------------------------------------------------------------
+int x = 0, y=5, z;
+float result
+try{
+  result = x/y;
+}
+catch(DividedByZeroException ex){
+  MessageBox.Show(ex.ToString());
+}
+finally{
+  // final cleanup code; do code after the error has been handled
+  // maybe something you want to happen no matter if there is an error or not.
+  // you will close sql connectison here
+}
+------------------------------------------------------------------
+
+
+
+Throw- 
+
+-------------------------------------------------------------------
+
+int x =0, y= 5, z;
+float result;
+if(z < y){
+  throw new Exception("Sorry, z value must be greater than y value");
+}
+try{
+  result = y / x ;
+}
+catch(DividedByZeroException ex){
+  throw new Exception("you can't divide any number by zero");
+}
+finally{
+  // final cleanup code; do code after the error has been handled
+  // maybe something you want to happen no matter if there is an error or not.
+  // you will close sql connectison here
+}
+
+-------------------------------------------------------------------
