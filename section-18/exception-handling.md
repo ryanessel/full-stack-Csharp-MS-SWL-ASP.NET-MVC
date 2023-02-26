@@ -123,7 +123,7 @@ try{
   result = x/y;
 }
 catch(DividedByZeroException ex){
-  MessageBox.Show(ex.ToString());
+  MessageBox.Show(ex.ToString()); // this is showing the error in a popup message windo.
 }
 finally{
   // final cleanup code; do code after the error has been handled
@@ -134,13 +134,14 @@ finally{
 
 
 
-Throw- 
+Throw- this will show the error in Visual Studio
 
 -------------------------------------------------------------------
 
 int x =0, y= 5, z;
 float result;
 if(z < y){
+
   throw new Exception("Sorry, z value must be greater than y value");
 }
 try{
