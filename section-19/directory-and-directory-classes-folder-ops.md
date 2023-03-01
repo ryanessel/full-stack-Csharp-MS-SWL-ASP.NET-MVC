@@ -69,3 +69,66 @@ FullName - it is used to get the full path of the directory.
 LastAccessTime - it is used to get or set the time the current file or directory was last
                  accessed.
 
+
+
+More methods...
+
+LastAccessTimeUtc  -  used to get/set time in UTC that the current file or dir was last
+                      accessed.
+
+LastWriteTime -  it is used to get or set the time when the current file or directory was 
+                 last written.
+
+LastWriteTimeUtc - used to get or set time in UTC, when the current file or dir was last written
+
+Name - used to get the name of this DirectoryInfo instance.
+
+Parent - used to get the parent directory of specified subdirectory.
+
+Root - used to get the root portion of the directory.
+
+
+More methods of directoryinfo ...
+
+Create() - used to create a directory.
+
+Create(DirectorySecurity) - used to create a directory using a DirectorySecurity obj
+
+CreateObjRef(Type) - it is used to create an obj that contains all the relevant info required 
+                     to generate a proxy used to communicate wih a remote object
+
+CreateSubdirectory(String) - used to create a dubdirectory or dubdirectories on the specified
+                             path.
+
+CreateSubdirectory(String, DirectorySecurity) - used to create a dubdirectory or subdirectories on 
+                                                the specified path with specified security.
+
+Delete()  - used to delete this DirectoryInfo if it is empty.
+
+Delete(Boolean) - used to delete this instance of a DirectoryInfo, specifying whether to delete 
+                  subdirs and files.
+
+
+
+ Even more methods...
+
+ EnumerateFile() - returns enumerable collection of dir info in the current dir
+
+ GetAccessControl() - returns enumerable collection of the file info in the current 
+                      directory.
+
+GetDirectories() - returns the dubdirs of the current dir.
+
+GetFile() - returns a file list form the currernt directory.
+
+GetType() - used to get the type of the current instance.
+
+MoveTo(String) - used to move a DirectoryInfo instance and its contents to a new path.
+
+Refresh() - used to referesh the state of the obj.
+
+SetAccessControl(DirectorySecurity) - used to set access control list (ACL) entries described by a 
+                                      DirectorySecurity obj.
+
+ToString()  - returs the og path that was passed by the user.
+
