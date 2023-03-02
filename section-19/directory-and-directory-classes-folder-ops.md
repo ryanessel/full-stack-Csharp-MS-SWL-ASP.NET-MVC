@@ -132,3 +132,11 @@ SetAccessControl(DirectorySecurity) - used to set access control list (ACL) entr
 
 ToString()  - returs the og path that was passed by the user.
 
+
+
+
+
+PUT IN BUTTON CLICK TO MAKE DIR IN THE DEBUG BIN FOLDER!
+
+            DirectoryInfo dr = new DirectoryInfo(@"C:\temp3");
+            dr.Create();
