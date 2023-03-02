@@ -45,5 +45,53 @@ namespace directory_and_directory_info
             MessageBox.Show(accesstime, "Last Accessed at ...");
             MessageBox.Show(createtime, "Created at/on ...");
         }
+
+        private void folderBrowserDialog1_HelpRequest(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            txtCurrentDirBox.Text = Directory.GetCurrentDirectory();
+        }
+        FolderBrowserDialog folderDlg1 = new FolderBrowserDialog();
+        private void btnPathSetter_Click(object sender, EventArgs e)
+        {
+         
+            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
+
+           
+            DialogResult result = folderDlg1.ShowDialog();
+            txtCurrentDirBox.Text = folderDlg1.SelectedPath;
+            Directory.SetCurrentDirectory($@"{folderDlg1.SelectedPath}");
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCurrDirCheck_Click(object sender, EventArgs e)
+        {
+           
+            MessageBox.Show(folderDlg1.SelectedPath);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (txtFolderName.Text == "")
+            {
+                MessageBox.Show("Please input a PO# for the folder", "Notice!");
+                return;
+            }
+            else if (!Directory.Exists($"{txtFolderName.Text}"))
+            {
+
+                Directory.CreateDirectory($"{txtFolderName.Text}");
+                txtFolderName.Text = "";
+            }
+        }
     }
 }
