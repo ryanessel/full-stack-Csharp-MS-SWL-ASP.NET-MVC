@@ -1,6 +1,6 @@
 directory and directory info
 
-
+**using System.IO;** needed to be able to use the directory classes
 
 Directory Class  |  Directoryinfo Class | Use
 (static Methods) |                      |

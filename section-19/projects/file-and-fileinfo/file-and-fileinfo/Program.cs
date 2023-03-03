@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace directory_and_directory_info
+namespace file_and_fileinfo
 {
     internal static class Program
     {

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace directory_and_directory_info.Properties
+namespace file_and_fileinfo.Properties
 {
 
 
