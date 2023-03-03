@@ -1,6 +1,6 @@
 File and fileinfo classes
 
-- using System.IO.Stream; // importing/using it
+- using System.IO; // importing/using it
 
 isntansiating it 
 - System.IO.Stream stream = new System.IO.MemoryStream();
@@ -176,4 +176,49 @@ ToString - returns a path as string.
 
 
 
+		private void btnCreate_Click(object sender, EventArgs e)
+		{
+			// simple creates a file in the Bin/Debug folder of the project if you don't specify
+			File.Create("test-file-1");
+		}
 
+
+FILE INFO vERSION OF THIS
+
+			FileInfo ourfile = new FileInfo("test-file-2.txt");
+
+			ourfile.Create();
+
+
+
+
+BUTTON THAT DELETES THE SPEFICIC FILE NAME
+
+		private void btnDelFirstFile_Click(object sender, EventArgs e)
+		{
+			// the text in side the quotation marks must be exact! evne down to the file extension.
+			File.Delete("test-file-1.txt");
+		}
+
+
+BUTTON DEMOSTRATING FILE STREAM AND STREAM WRITER!
+Lets you create a file and also add text to the file - pretty wild 
+
+		private void btnWrite_Click(object sender, EventArgs e)
+		{
+			// sets up file stream
+			FileStream fs1 = new FileStream("third.txt", FileMode.OpenOrCreate, FileAccess.Write);
+			//lets you write to the spefific file stream
+			StreamWriter sw1 = new StreamWriter(fs1);
+			// writing multiple lines
+			sw1.WriteLine("This is the first line");
+			sw1.WriteLine("This is the 2nd line");
+			sw1.WriteLine("This is the 3rd line");
+			sw1.WriteLine("This is the 4th line");
+			// moves text from temp to file
+			sw1.Flush();
+			// must clsoe FileStream or we won't be able to see the text in the file.
+			fs1.Close();
+
+
+		}
