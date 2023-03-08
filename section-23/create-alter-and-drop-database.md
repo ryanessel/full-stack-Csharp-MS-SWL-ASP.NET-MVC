@@ -9,7 +9,7 @@ create alter and drop database
 
 Exampple 
 -----------------------------------------------
-   l
+   
 
     Alter database TEST3 modify name = TEST
 
