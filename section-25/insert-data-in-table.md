@@ -14,3 +14,5 @@ Insert Into tableName(
 ) values (val1, val2, val3)
 
 -------------------------------------------
+
+these all the numbers of vales you speficy must be equaly to the number of columns and in the same order
