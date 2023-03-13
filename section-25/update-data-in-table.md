@@ -29,3 +29,14 @@ Where EmployeeID = 1001 ----------------------> this probably must be a primary 
 
 
 -------------------------------------
+
+
+Deleting a specific row
+
+------------------------------------------
+Use Company2
+Go
+
+Delete tableEmployees
+Where EmployeeId = 1005
+------------------------------------------
