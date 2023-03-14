@@ -1,0 +1,11 @@
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\practice-projects\drag-drop-test\bin\Debug\drag-drop-test.exe.config
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\practice-projects\drag-drop-test\bin\Debug\drag-drop-test.exe
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\practice-projects\drag-drop-test\bin\Debug\drag-drop-test.pdb
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\practice-projects\drag-drop-test\obj\Debug\drag-drop-test.csproj.AssemblyReference.cache
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\practice-projects\drag-drop-test\obj\Debug\drag-drop-test.csproj.SuggestedBindingRedirects.cache
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\practice-projects\drag-drop-test\obj\Debug\drag_drop_test.Form1.resources
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\practice-projects\drag-drop-test\obj\Debug\drag_drop_test.Properties.Resources.resources
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\practice-projects\drag-drop-test\obj\Debug\drag-drop-test.csproj.GenerateResource.cache
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\practice-projects\drag-drop-test\obj\Debug\drag-drop-test.csproj.CoreCompileInputs.cache
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\practice-projects\drag-drop-test\obj\Debug\drag-drop-test.exe
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\practice-projects\drag-drop-test\obj\Debug\drag-drop-test.pdb
