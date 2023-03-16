@@ -19,7 +19,7 @@ namespace drag_drop_test
             InitializeComponent();
             lblDragDrop.AllowDrop = true;
             lblDragDrop.DragEnter += new DragEventHandler(lblDragDrop_DragEnter);
-            lblDragDrop.DragDrop += new DragEventHandler(lblDragDrop_DragDrop);
+//lblDragDrop.DragDrop += new DragEventHandler(lblDragDrop_DragDrop);
         }
 
         private void lblDragDrop_DragEnter(object sender, DragEventArgs e)
@@ -45,10 +45,10 @@ namespace drag_drop_test
 
                 foreach (string file in files)
                 {
-                    if (!lbDroppedFiles.Items.Contains(file))
-                    {
+                 
+                    
                         lbDroppedFiles.Items.Add(file);
-                    }
+                    
                 }
             }
         }

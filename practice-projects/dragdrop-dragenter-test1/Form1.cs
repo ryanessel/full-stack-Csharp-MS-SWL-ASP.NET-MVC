@@ -17,6 +17,7 @@ namespace dragdrop_dragenter_test1
             InitializeComponent();
             txtBoxToReceiveDrop.AllowDrop= true;
             txtBoxToReceiveDrop.DragEnter += new DragEventHandler(txtBoxToReceiveDrop_DragEnter);
+            // the bit below causes it the dragged item to be dropped twice 
             //txtBoxToReceiveDrop.DragDrop += new DragEventHandler(txtBoxToReceiveDrop_DragDrop);
         }
 
@@ -38,7 +39,7 @@ namespace dragdrop_dragenter_test1
         {
             string droppedText = e.Data.GetData(DataFormats.Text).ToString();
             //MessageBox.Show(e.Data.GetData(DataFormats.Text).ToString(), "Dropped Text is ... ");
-            txtBoxToReceiveDrop.Text += Environment.NewLine + droppedText;
+            txtBoxToReceiveDrop.Text += droppedText + Environment.NewLine;
         }
     }
 }
