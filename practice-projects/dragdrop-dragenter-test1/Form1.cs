@@ -17,7 +17,7 @@ namespace dragdrop_dragenter_test1
             InitializeComponent();
             txtBoxToReceiveDrop.AllowDrop= true;
             txtBoxToReceiveDrop.DragEnter += new DragEventHandler(txtBoxToReceiveDrop_DragEnter);
-            txtBoxToReceiveDrop.DragDrop += new DragEventHandler(txtBoxToReceiveDrop_DragDrop);
+            //txtBoxToReceiveDrop.DragDrop += new DragEventHandler(txtBoxToReceiveDrop_DragDrop);
         }
 
         private void btnTextToDrag_MouseDown(object sender, MouseEventArgs e)
@@ -36,7 +36,9 @@ namespace dragdrop_dragenter_test1
 
         private void txtBoxToReceiveDrop_DragDrop(object sender, DragEventArgs e)
         {
-            txtBoxToReceiveDrop.Text = e.Data.GetData(DataFormats.Text).ToString();
+            string droppedText = e.Data.GetData(DataFormats.Text).ToString();
+            //MessageBox.Show(e.Data.GetData(DataFormats.Text).ToString(), "Dropped Text is ... ");
+            txtBoxToReceiveDrop.Text += Environment.NewLine + droppedText;
         }
     }
 }

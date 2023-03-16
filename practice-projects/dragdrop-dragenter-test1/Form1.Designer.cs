@@ -47,8 +47,9 @@
             // 
             this.txtBoxToReceiveDrop.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBoxToReceiveDrop.Location = new System.Drawing.Point(269, 170);
+            this.txtBoxToReceiveDrop.Multiline = true;
             this.txtBoxToReceiveDrop.Name = "txtBoxToReceiveDrop";
-            this.txtBoxToReceiveDrop.Size = new System.Drawing.Size(348, 26);
+            this.txtBoxToReceiveDrop.Size = new System.Drawing.Size(348, 132);
             this.txtBoxToReceiveDrop.TabIndex = 1;
             this.txtBoxToReceiveDrop.DragDrop += new System.Windows.Forms.DragEventHandler(this.txtBoxToReceiveDrop_DragDrop);
             this.txtBoxToReceiveDrop.DragEnter += new System.Windows.Forms.DragEventHandler(this.txtBoxToReceiveDrop_DragEnter);
