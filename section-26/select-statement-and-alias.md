@@ -118,3 +118,21 @@ Go
 
 Select 職員.EmployeeName, 職員.Phone, 職員.Age from tableEmployeesB as 職員
 ---------------------------------------------------------------------------
+
+
+class Warrior{
+constructor(hp, mp, atk, def, spd){
+
+    this.hp = hp;
+    this.mp = mp;
+    this.atk = atk;
+    this.def = def;
+    this.spd = spd;
+}
+basicAttack(){
+const dmgCalc= (range) => this.atk*(Math.ceil(Math.random()*range));    
+let dmg =dmgCalc(6); 
+console.log("dmg done is: ", dmg );
+}
+
+}

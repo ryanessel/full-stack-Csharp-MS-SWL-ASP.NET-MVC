@@ -1,0 +1,11 @@
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\practice-projects\dragdrop-dragenter-test1\bin\Debug\dragdrop-dragenter-test1.exe.config
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\practice-projects\dragdrop-dragenter-test1\bin\Debug\dragdrop-dragenter-test1.exe
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\practice-projects\dragdrop-dragenter-test1\bin\Debug\dragdrop-dragenter-test1.pdb
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\practice-projects\dragdrop-dragenter-test1\obj\Debug\dragdrop-dragenter-test1.csproj.AssemblyReference.cache
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\practice-projects\dragdrop-dragenter-test1\obj\Debug\dragdrop-dragenter-test1.csproj.SuggestedBindingRedirects.cache
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\practice-projects\dragdrop-dragenter-test1\obj\Debug\dragdrop_dragenter_test1.Form1.resources
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\practice-projects\dragdrop-dragenter-test1\obj\Debug\dragdrop_dragenter_test1.Properties.Resources.resources
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\practice-projects\dragdrop-dragenter-test1\obj\Debug\dragdrop-dragenter-test1.csproj.GenerateResource.cache
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\practice-projects\dragdrop-dragenter-test1\obj\Debug\dragdrop-dragenter-test1.csproj.CoreCompileInputs.cache
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\practice-projects\dragdrop-dragenter-test1\obj\Debug\dragdrop-dragenter-test1.exe
+C:\Users\spuct\Dropbox\NCA WORK\Javascript Study\c-sharp\practice-projects\dragdrop-dragenter-test1\obj\Debug\dragdrop-dragenter-test1.pdb

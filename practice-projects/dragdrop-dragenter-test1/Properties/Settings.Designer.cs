@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace drag_files_test2.Properties
+namespace dragdrop_dragenter_test1.Properties
 {
 
 

@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace drag_files_test2
+namespace dragdrop_dragenter_test1
 {
     public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void btnTextToDrag_MouseDown(object sender, MouseEventArgs e)
+        {
+            btnTextToDrag.DoDragDrop(btnTextToDrag.Text, DragDropEffects.Copy | DragDropEffects.Move);
         }
     }
 }

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "drag-files-test2", "drag-files-test2.csproj", "{23C65E24-0524-4B6A-9477-8C2EF77399DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dragdrop-dragenter-test1", "dragdrop-dragenter-test1.csproj", "{78D29EE5-4DB8-43BA-97C4-6F992DEFC48A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{23C65E24-0524-4B6A-9477-8C2EF77399DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{23C65E24-0524-4B6A-9477-8C2EF77399DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{23C65E24-0524-4B6A-9477-8C2EF77399DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{23C65E24-0524-4B6A-9477-8C2EF77399DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78D29EE5-4DB8-43BA-97C4-6F992DEFC48A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78D29EE5-4DB8-43BA-97C4-6F992DEFC48A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78D29EE5-4DB8-43BA-97C4-6F992DEFC48A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78D29EE5-4DB8-43BA-97C4-6F992DEFC48A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {AAB6685F-7884-4A09-81EE-B53A83BD5F6C}
+		SolutionGuid = {95135FF7-13FF-45EC-B6FE-4D386F95304B}
 	EndGlobalSection
 EndGlobal

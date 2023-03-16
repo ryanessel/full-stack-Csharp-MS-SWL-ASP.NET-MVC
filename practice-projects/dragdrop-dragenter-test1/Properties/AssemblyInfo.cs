@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("drag-files-test2")]
+[assembly: AssemblyTitle("dragdrop-dragenter-test1")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("drag-files-test2")]
+[assembly: AssemblyProduct("dragdrop-dragenter-test1")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("23c65e24-0524-4b6a-9477-8c2ef77399db")]
+[assembly: Guid("78d29ee5-4db8-43ba-97c4-6f992defc48a")]
 
 // Version information for an assembly consists of the following four values:
 //
