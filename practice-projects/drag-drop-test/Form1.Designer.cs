@@ -36,12 +36,13 @@
             // lblDragDrop
             // 
             this.lblDragDrop.AutoSize = true;
+            this.lblDragDrop.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblDragDrop.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDragDrop.Location = new System.Drawing.Point(212, 147);
             this.lblDragDrop.Name = "lblDragDrop";
-            this.lblDragDrop.Size = new System.Drawing.Size(228, 33);
+            this.lblDragDrop.Size = new System.Drawing.Size(307, 35);
             this.lblDragDrop.TabIndex = 0;
-            this.lblDragDrop.Text = "Drag Drop Test";
+            this.lblDragDrop.Text = "Drop File on this text";
             this.lblDragDrop.DragDrop += new System.Windows.Forms.DragEventHandler(this.lblDragDrop_DragDrop);
             this.lblDragDrop.DragEnter += new System.Windows.Forms.DragEventHandler(this.lblDragDrop_DragEnter);
             // 
