@@ -162,7 +162,7 @@ Decrypt - Decrypts a file that was encrypted by the current account using the en
 Delete - Deletes the specified file.
 Encrypt - Encrypts a file so that only the account used to encrypt the file can decrypt it.
 GetAccessControl - Gets a FileSecurity obj that encps the access control list (ACL) entries for a specified file.
-MoveTo - Moves a specified file to a new locaitonm propviding the option to specified a new file name.
+****MoveTo - Moves a specified file to a new locaitonm propviding the option to specified a new file name.
 
 Open - opens a FileStream in the specified FileMode.
 OpenRead - Creates read-only FileStream
