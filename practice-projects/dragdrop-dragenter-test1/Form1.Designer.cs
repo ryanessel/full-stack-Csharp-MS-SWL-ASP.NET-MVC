@@ -50,6 +50,8 @@
             this.txtBoxToReceiveDrop.Name = "txtBoxToReceiveDrop";
             this.txtBoxToReceiveDrop.Size = new System.Drawing.Size(348, 26);
             this.txtBoxToReceiveDrop.TabIndex = 1;
+            this.txtBoxToReceiveDrop.DragDrop += new System.Windows.Forms.DragEventHandler(this.txtBoxToReceiveDrop_DragDrop);
+            this.txtBoxToReceiveDrop.DragEnter += new System.Windows.Forms.DragEventHandler(this.txtBoxToReceiveDrop_DragEnter);
             // 
             // Form1
             // 
