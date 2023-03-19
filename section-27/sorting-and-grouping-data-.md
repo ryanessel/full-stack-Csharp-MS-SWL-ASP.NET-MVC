@@ -32,3 +32,28 @@ Go
 
 Select Top 20  * from Person.Person
 --------------------------------------------------
+
+
+
+
+**ORDER BY** - sorts in a type of order.- Alphabetically organizes
+---------------------------------------------------
+Use AdventureWorks2019
+Go
+
+--ASC is used to sort things in ascending order (it is also default)
+Select FirstName, MiddleName, LastName 
+From Person.Person Order By FirstName ASC
+---------------------------------------------------
+
+
+**ORDER BY** - using DESC (descending order)
+---------------------------------------------------
+Use AdventureWorks2019
+Go
+
+
+--DESC is used to sort by descending order (from the bottom to the top; from Z to A)
+Select FirstName, MiddleName, LastName 
+From Person.Person Order By FirstName DESC
+---------------------------------------------------
