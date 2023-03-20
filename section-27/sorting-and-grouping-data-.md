@@ -57,3 +57,25 @@ Go
 Select FirstName, MiddleName, LastName 
 From Person.Person Order By FirstName DESC
 ---------------------------------------------------
+
+
+**GROUP BY syntax** - used to arrange data into groups
+---------------------------------------------------
+Select column1, conlumn2, column3 From tableName
+Where Condition
+Group By column1, column2, column3
+Order By column1, column2, column3
+---------------------------------------------------
+
+
+**GROUP BY Example** - used to arrange data into groups
+---------------------------------------------------
+Use AdventureWorks2019
+Go
+
+
+Select Shelf, sum(Quantity) as 'Total Quantity' 
+from Production.ProductInventory 
+Group By Shelf
+Order By Shelf -- fromt largest to smallest
+---------------------------------------------------
