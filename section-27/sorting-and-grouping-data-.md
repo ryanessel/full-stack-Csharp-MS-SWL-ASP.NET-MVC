@@ -79,3 +79,26 @@ from Production.ProductInventory
 Group By Shelf
 Order By Shelf -- fromt largest to smallest
 ---------------------------------------------------
+
+
+**HAVING syntax** specifies conditions that filter whichc group results apppear in the final results
+---------------------------------------------------
+Select column1, conlumn2, column3 From tableName
+Where Condition
+Group By column1, column2, column3
+HAVING Condition
+Order By column1, column2, column3
+---------------------------------------------------
+
+
+
+
+**HAVING** must come after group by clause
+---------------------------------------------------
+Use AdventureWorks2019
+Go
+
+Select Shelf, sum(Quantity) As Quantity, sum (Bin) as Bin
+from Production.ProductInventory
+Group By Shelf  HAVING Shelf = 'C' Order By Shelf
+---------------------------------------------------
