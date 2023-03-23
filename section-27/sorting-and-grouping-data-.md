@@ -93,7 +93,7 @@ Order By column1, column2, column3
 
 
 
-**HAVING** must come after group by clause
+**HAVING** must come after group by clause - executed after groups are created - does table scan
 ---------------------------------------------------
 Use AdventureWorks2019
 Go
@@ -102,3 +102,44 @@ Select Shelf, sum(Quantity) As Quantity, sum (Bin) as Bin
 from Production.ProductInventory
 Group By Shelf  HAVING Shelf = 'C' Order By Shelf
 ---------------------------------------------------
+
+※double hyphens are comments in SQL "--"
+**Where** Gives same result as having above- seems less verbose - executed before groups are created
+Uses index
+---------------------------------------------------
+Use AdventureWorks2019
+Go
+
+Select Shelf, sum(Quantity) As Quantity, sum (Bin) as Bin
+from Production.ProductInventory
+-- where must be after "from"...
+Where shelf = 'C'           -- can't do aggregate function (sum()) at where clause
+--... but before group by!
+Group By Shelf
+---------------------------------------------------
+
+
+
+
+**HAVING** must come after group by clause - executed after groups are created
+---------------------------------------------------
+Use AdventureWorks2019
+Go
+
+Select Shelf, sum(Quantity) As Quantity, sum (Bin) as Bin
+from Production.ProductInventory
+Group By Shelf  HAVING sum(Quantity)>10000 Order By Shelf
+---------------------------------------------------
+
+
+Difference betweeen the **where** and the **having** clasuse
+- where will use an index and the having will not
+
+When to use Where and Having clause?:
+- if filtering can be done wihtouth the aggregate fucntion then you must do it in the where clause
+  becasue it improves performance since counting and sorting will be done on a much smaller set;
+- if you filter the same rows after grouping, you unnecessarily bear the cost of sorting which
+  isn't even used 
+
+
+※It is possible to save queries to a drive and use them later 
