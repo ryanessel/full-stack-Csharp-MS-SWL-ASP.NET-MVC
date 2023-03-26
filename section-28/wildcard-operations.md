@@ -27,6 +27,7 @@ Where COLUMN LIKE 'a%' -- finds any vals that start with the letter "a"
 **LIKE CLAUSE (%) example** - gets all rows of people who's first name starts with "r"
 'x%' - all starting with x
 '%x' - all ending with x
+'%x%' - gets any values that containt at least one letter 'a'
 ------------------------------------------------
 Use AdventureWorks2019
 Go
@@ -38,6 +39,7 @@ Where FirstName Like 'r%' -- gets all rows where the first letter of the FirstNa
 
 
 **LIKE CLAUSE Last letters**
+'%x' - all ending with x
 ------------------------------------------------
 Use AdventureWorks2019
 Go
@@ -45,3 +47,46 @@ Go
 Select * from Person.Person
 Where FirstName Like '%er' gets all rows where the first letter of the FirstName Column is er
 ------------------------------------------------
+
+
+
+**LIKE CLAUSE any letters that are containt in a set in any position**
+'%x%' - gets any values that containt at least one letter 'a'
+------------------------------------------------
+Use AdventureWorks2019
+Go
+
+
+Select * from Person.Person
+Where FirstName Like '%er%' 
+------------------------------------------------
+
+
+
+
+**LIKE CLAUSE (_)**
+-------------------------------------------------
+Select col1, col2, col3 Form tableName
+Where COLUMN LIKE '_inda'
+-------------------------------------------------
+
+
+
+**LIKE CLAUSE (_)** - gets a only a spefic length of strings. including the "_" so '_oger' will get only 5 letter words with '_' allowed to be anything.
+- you can even just used multipel "_" to limit the length of the string you want to have serarched
+-------------------------------------------------
+Use AdventureWorks2019
+Go
+
+
+Select * from Person.Person
+Where FirstName Like '_oger' 
+-------------------------------------------------
+
+
+
+
+
+
+
+
