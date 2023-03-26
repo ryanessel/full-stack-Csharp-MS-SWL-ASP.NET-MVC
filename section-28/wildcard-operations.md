@@ -84,9 +84,61 @@ Where FirstName Like '_oger'
 -------------------------------------------------
 
 
+**LIKE CLAUSE (_)** - you can configure this _ however you like and put as many or as little as you like and intersperse letters between the _  like below:
+-------------------------------------------------
+Use AdventureWorks2019
+Go
+
+Select * from Person.Person
+Where FirstName Like 'D_v__' 
+-------------------------------------------------
+
+**LIKE CLAUSE** - Syntax used to represent any single character within a short list
+-------------------------------------------------
+-- finds any val that starts with either, x, y or z.
+Select col1, col2, col3 From tableName
+Where colName LIKE '[xyz]%'
+-------------------------------------------------
 
 
 
+**LIKE CLAUSE** - proper example used to represent any single character within a short list
+-------------------------------------------------
+Use AdventureWorks2019
+Go
+-- finds first names starting with letter  'a', 'b', or 'c'
+Select * from Person.Person
+Where FirstName Like '[abc]%' 
+-------------------------------------------------
 
 
 
+**LIKE CLAUSE** - method that gets first names with letters from a to h. the - represent everything inbetween the 2 numbers it is sperarting.
+-------------------------------------------------
+Use AdventureWorks2019
+Go
+-- finds first names starting with letter  'a', 'b', or 'c'
+Select * from Person.Person
+Where FirstName Like '[a-h]%' 
+-------------------------------------------------
+
+
+**NOT LIKE CLAUSE** - excepts the information inside the brackets; everything but the info in the brackets
+-------------------------------------------------
+Use AdventureWorks2019
+Go
+'
+Select * from Person.Person
+Where FirstName Not Like '[a-h]%' 
+-------------------------------------------------
+
+
+**NOT LIKE CLAUSE** *i add order by so we can see it in alphabetical order and so we can see that the "not like" thing is working
+-------------------------------------------------
+Use AdventureWorks2019
+Go
+-- gets everything but the first names sstarting with "a" 
+Select * from Person.Person
+Where FirstName Not Like '%a%' 
+Order by FirstName
+-------------------------------------------------
