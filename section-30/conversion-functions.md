@@ -34,4 +34,17 @@ CAST(Expression AS DataType(Length))
 
 --------------------------------------------------------------
 
+
+**CAST AND CONVERT EXAMPLES TO GETHER** -- both below get same result
+--------------------------------------------------------------
+Use AdventureWorks2019
+Go
+
+-- convert takes datatype as its first param
+Select Convert(int, 2.922)
+
+-- cast takes expression as first param
+Select Cast(2.99 as int)
+--------------------------------------------------------------
+
 stopped at **3:25**
