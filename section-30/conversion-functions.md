@@ -42,9 +42,13 @@ Go
 
 -- convert takes datatype as its first param
 Select Convert(int, 2.922)
+Select Conver(float, 2.33)
+Select Convert(varchar, 3.449)
 
 -- cast takes expression as first param
 Select Cast(2.99 as int)
+Select Cast(2.44 as float)
+Select Cast(3.555 as varchar)
 --------------------------------------------------------------
 
-stopped at **3:25**
+stopped at **4:58**
